@@ -22,7 +22,7 @@ export const ProjectData=[
     {
         id:1,
         title:"CI CD Pipeline using jenkins",
-        about: "The Automation of continuous integration and continuous deployment using jenkins and pipeline script to increase productivity and saves lot of time for the organization and can deliver quality applications to the end user.",
+        about: "The Automation of continuous integration and continuous deployment using jenkins and pipeline script to increase productivity and saves lot of time for the organization",
         tags:["Jenkins", "AWS", "Docker", "Git"],
         github:"https://github.com/pankajmatele19/DevOps.git",
         image:cicd,

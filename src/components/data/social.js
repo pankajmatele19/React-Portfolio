@@ -1,6 +1,11 @@
 export const SocialData=[
     
     {
+        platform:"Gmail",
+        icon: require("../../assets/icons/gm.png"),
+        link:"https://mail.google.com/mail/pankajmatele9@gmail.com",
+    },
+    {
         platform:"Github",
         icon: require("../../assets/icons/github.png"),
         link:"https://github.com/pankajmatele19",

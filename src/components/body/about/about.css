@@ -18,7 +18,7 @@
     font-size: 32px;
 }
 
-.btn {
+/* .btn {
     background-color:blue;
     color: white;
     height: 40px;
@@ -26,6 +26,46 @@
     font-size: 15px;
     border-radius: 5px;
     margin-top: 15px;
+} */
+
+button {
+    border-radius: 4px;
+    background-color: blueviolet;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover {
+    padding-right: 10px;
+    width: 150px;
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 3px;
 }
 
 @media only screen and (max-width: 720px) {

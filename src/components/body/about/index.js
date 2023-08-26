@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
 import SocialContact from "../../common/social-contact/index";
+import rs from '../../../assets/Pankaj_Matele_Full-stack-developer.pdf'
+
+
 function About() {
   return (
     <div className="about">
@@ -9,7 +12,7 @@ function About() {
           Hello There ✋,I am,
           <br /> <span className="info-name">Pankaj Matele</span>.
           <br /> Full Stack Developer <br />
-          <button className="btn">Resume</button>
+          <a href={rs} target="_blank" ><button className="btn">About Me</button></a>
         </div>
         <div className="about-photo">
           <img
