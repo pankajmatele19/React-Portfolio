@@ -1,0 +1,48 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.web-option{
+    font-size: 20px;
+    margin-right: 16px;
+    font-weight: 700;
+}
+
+.web-option a{
+    color:blue;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.link { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+
+.web-option a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0%;
+    position: absolute;
+    background : blue;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.web-option  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+.option-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+.web-option:last-child {
+    margin-right: 0px;
+}
