@@ -25,7 +25,7 @@ function Mobile({ isOpen, setIsOpen}) {
     </div>
     <div className="mobile-option">
         <a href="#contact">
-        ontact
+        Contact
         </a>
     </div>
   </div>
