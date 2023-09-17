@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import SocialContact from "../../common/social-contact/index";
-import rs from '../../../assets/Pankaj_Matele_Full-stack-developer.pdf'
+import rs from '../../../assets/Pankaj_Matele_resume.pdf'
 
 
 function About() {
